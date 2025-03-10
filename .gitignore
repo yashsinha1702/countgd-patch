@@ -1,0 +1,4 @@
+*.pth
+*__pycache__
+CountGD/models_inference/GroundingDINO/*
+CountGD/groundingdino/*

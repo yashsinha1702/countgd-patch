@@ -1,4 +1,11 @@
 *.pth
 *__pycache__
+*.pyc
+.DS_Store
+
+# Model code from upstream CountGD. It is not tracked in this snapshot; see README "What is not in this snapshot".
 CountGD/models_inference/GroundingDINO/*
 CountGD/groundingdino/*
+
+# Local weights (download per CountGD/README.md)
+CountGD/checkpoints/
